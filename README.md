@@ -1,1 +1,5 @@
 # OpenCL-Temperature-Analysis
+
+Implementation of a simple statistical tool for analysing historical weather records from Lincolnshire. The provided data files include records of air temperature collected over a period of more than 80 years from five weather stations in Lincolnshire: Barkston Heath, Scampton, Waddington, Cranwell and Coningsby. The application is able to load the provided dataset and perform statistical summaries of temperature including the min, max and average values, and standard deviation. The provided summaries are performed on the entire dataset regardless their acquisition time and location. 
+
+Due to the large amount of data (i.e. 1.8 million records), all statistical calculations are performed on parallel hardware and implemented by a parallel software component written in OpenCL. The application also reports memory transfer, kernel execution and total program execution times for performance assessment. The application allows for kernel execution on bith integers and float data types.
