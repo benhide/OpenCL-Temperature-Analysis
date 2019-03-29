@@ -1,0 +1,97 @@
+﻿  main.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(881): warning C4244: 'initializing': conversion from '_Ty' to '_Objty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Objty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(164): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&>(_Alloc &,_Objty *const ,float &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<cl_int>,
+              _Ty=int,
+              _Objty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(164): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&>(_Alloc &,_Objty *const ,float &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<cl_int>,
+              _Ty=int,
+              _Objty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(190): note: see reference to function template instantiation 'void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<_Ty&>(_Ty &)' being compiled
+          with
+          [
+              _FwdIt=int *,
+              _Alloc=std::allocator<cl_int>,
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(190): note: see reference to function template instantiation 'void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<_Ty&>(_Ty &)' being compiled
+          with
+          [
+              _FwdIt=int *,
+              _Alloc=std::allocator<cl_int>,
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(217): note: see reference to function template instantiation '_FwdIt std::_Uninitialized_copy_al_unchecked<_Ty*,int*,_Alloc>(_InIt,const _InIt,const _FwdIt,_Alloc &,std::_General_ptr_iterator_tag,std::_Any_tag)' being compiled
+          with
+          [
+              _FwdIt=int *,
+              _Ty=float,
+              _Alloc=std::allocator<cl_int>,
+              _InIt=float *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1823): note: see reference to function template instantiation '_FwdIt *std::_Uninitialized_copy<_Iter,int*,std::allocator<_Ty>>(const _InIt,const _InIt,_FwdIt,_Alloc &)' being compiled
+          with
+          [
+              _FwdIt=int *,
+              _Iter=float *,
+              _Ty=cl_int,
+              _InIt=float *,
+              _Alloc=std::allocator<cl_int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1161): note: see reference to function template instantiation 'int *std::vector<cl_int,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,int *)' being compiled
+          with
+          [
+              _Ty=cl_int,
+              _Iter=float *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1161): note: see reference to function template instantiation 'int *std::vector<cl_int,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,int *)' being compiled
+          with
+          [
+              _Ty=cl_int,
+              _Iter=float *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1261): note: see reference to function template instantiation 'void std::vector<cl_int,std::allocator<_Ty>>::_Insert_range<float*>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Ty=cl_int,
+              _Iter=float *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1261): note: see reference to function template instantiation 'void std::vector<cl_int,std::allocator<_Ty>>::_Insert_range<float*>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Ty=cl_int,
+              _Iter=float *
+          ]
+  c:\users\student\desktop\parallelcomputing - float\parallelcomputing\main.cpp(181): note: see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>,void>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=cl_int,
+              _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<floating_point>>>
+          ]
+  c:\users\student\desktop\parallelcomputing - float\parallelcomputing\main.cpp(181): note: see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>,void>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=cl_int,
+              _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<floating_point>>>
+          ]
+  Generating code
+  All 901 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CMP3110M_Parallel_Computing.vcxproj -> C:\Users\Student\Desktop\ParallelComputing - Float\x64\Release\CMP3110M_Parallel_Computing.exe
+  kernels.cl
+          1 file(s) copied.
